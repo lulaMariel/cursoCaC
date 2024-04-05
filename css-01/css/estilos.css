@@ -1,7 +1,50 @@
-p {
-    color: blue;
+html {
+    scroll-behavior: smooth;
 }
 
-h1 {
+/* body {
+    background-color: cadetblue;
+} */
+
+/* .span-destacado {
+    text-decoration: underline;
+    color: green;
+} */
+
+/* p {
+    color: blue;
+    background-color: aqua;
+} */
+
+/* .primer-parrafo {
+    color: brown;
+} */
+
+/* .parrafo {
+    background-color: pink;
+} */
+
+/* #parrafo-destacado {
+    color: coral;
+} */
+
+/* h1, h2 {
+    color: black;
+    margin-bottom: .5rem;
+} */
+
+/* div p {
     color: red;
-}
+} */
+
+/* .primer-parrafo {
+    color: red;
+} */
+
+/* p.parrafo {
+    color: aqua;
+} */
+
+/* div p.parrafo {
+    color: blueviolet;
+} */
