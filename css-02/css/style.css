@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sedan+SC&display=swap');
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
+
+/* html { 
+    font-size: 10px;
+} :root cumple la misma función */
+
+:root {
+    /* font-size: 16px; */
+    font-size: 62.5%; /* nos da 10px de forma relativa y es la mejor opción porque se adapta a lo que el usuario prefiera (no es necesario declararlo) */
+}
+
+body, h1 {
+    /* width: 50%; */
+    margin: 0;
+}
+
+main {
+    background-color: #0000ff;
+    min-height: 100vh;
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    /* border-bottom: 1px solid; */
+    font-size: 1.5rem;
+    background-color: rgba(0, 255, 255, 0.5);
+    /* background-color: #7fffd4ff; */
+    /* width: 50%; */
+    width: 90vw;
+    /* font-style: oblique; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+}
+
+span {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
