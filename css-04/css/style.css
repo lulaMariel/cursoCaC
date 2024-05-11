@@ -1,0 +1,29 @@
+h1, h2, h3 {
+    color: chocolate;
+}
+
+main {
+    background-color: rgb(226, 204, 204);
+}
+
+/* main p {
+    color: seagreen;
+}
+
+main > p {
+    color: royalblue;
+} */
+
+/* h2 ~ p {
+    color: red;
+} */
+
+.seccion-1 {
+    background-color: green;
+}
+
+/* Pseudo Clases */
+
+article p:first-of-type {
+    color: red;
+}
