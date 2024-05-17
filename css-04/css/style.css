@@ -1,3 +1,30 @@
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: bisque;
+}
+
+a:active {
+    color: red;
+    border: 1px solid;
+}
+
+a:hover {
+    font-size: 2em;
+    cursor: crosshair;
+}
+
 h1, h2, h3 {
     color: chocolate;
 }
@@ -24,6 +51,49 @@ main > p {
 
 /* Pseudo Clases */
 
-article p:first-of-type {
+div {
+    background-color: black;
+}
+
+/* NO TIENE EFECTO PORQUE EL PRIMER ELEMENTO ES UN H3 */
+/* article p:first-child {
     color: red;
+} */
+
+/* article p:first-of-type {
+    color: red;
+}
+
+article p:nth-child(3) {
+    color: blue;
+} */
+
+/* LE DA EL COLOR A TODOS LOS IMPARES */
+div p:nth-child(odd) {
+    color: rgb(255, 0, 0);
+}
+
+/* LE DA EL COLOR A TODOS LOS PARES */
+div p:nth-child(even) {
+    color: rgb(199, 0, 0);
+}
+
+div p:last-child {
+    border-bottom: 1px solid;
+    padding-bottom: 0.5em;
+}
+
+/* Pseudo Elementos */
+
+p::selection {
+    background-color: blueviolet;
+    color: snow;
+}
+
+h1::before {
+    content: "🚗";
+}
+
+h1::after {
+    content: "🚄";
 }

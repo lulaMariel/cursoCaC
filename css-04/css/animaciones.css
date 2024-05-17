@@ -1,0 +1,25 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transition: width 2s linear 1s, height 4s ease 500ms; */
+    /* transition-delay: 0.1s;
+    transition-timing-function: ease; */
+}
+
+.box:hover {
+    /* transform: scale(3, 1.5); */
+    /* transform: rotate(45deg); */
+    /* transform: translate(50px, 100px); */
+    /* transform: skew(-45deg); */
+    /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+    width: 150px;
+    height: 200px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
