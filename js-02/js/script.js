@@ -1,12 +1,15 @@
-let num1 = 5;
+// let num1 = 5;
 
-num1 = num1 + 1;
-num1 += 1;
-num1++;
+// num1 = num1 + 1;
+// num1 += 1;
+// num1++;
 
-console.log(num1); // 8
-console.log(num1++); // 9
-console.log(++num1); // 10
+// console.log(num1); // 8
+// console.log(num1++); // 9
+// console.log(++num1); // 10
+
+// num1 **= 2;
+// console.log(num1)
 
 // console.log(2 == 2);
 // console.log(2 == "2");
@@ -43,3 +46,6 @@ console.log(++num1); // 10
 // console.log(cantidad >= 3 || tarjeta == "Visa");
 
 // console.log(!(2 > 1));
+
+// console.log(2 + 4 * 5) // 22
+// console.log((2 + 4) * 5) // 30
