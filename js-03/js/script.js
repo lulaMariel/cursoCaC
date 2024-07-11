@@ -23,21 +23,30 @@
 // Parámetros
 
 // function sumar(num1, num2) {
-//     console.log(num1 + num2);
+//     // let resultado = num1 + num2;
+//     // return resultado; 
+
+//     return num1 + num2;
 // }
 
-// sumar(5, 5)
-// sumar(15, 40)
+// let suma;
+
+// suma = sumar(5, 5);
+// suma += 1;
+// console.log(suma);
+
+// suma = sumar(15, 40)
+// console.log(suma);
 
 // ---
 
-function tablaMultiplicar(multiplicador, limite = 10) {
-    for (let i = 1; i <= limite; i++) {
-        console.log(`${i} * ${multiplicador} = ${i * multiplicador}`)
-    }
-}
+// function tablaMultiplicar(multiplicador, limite = 10) {
+//     for (let i = 1; i <= limite; i++) {
+//         console.log(`${i} * ${multiplicador} = ${i * multiplicador}`)
+//     }
+// }
 
-tablaMultiplicar(5);
+// tablaMultiplicar(5);
 // tablaMultiplicar(3, 20);
 // tablaMultiplicar(8, 4);
 
@@ -51,3 +60,24 @@ tablaMultiplicar(5);
 // let apellido = prompt("Ingrese su apellido");
 
 // saludar(nombre, apellido);
+
+// ---
+
+// function numeroMinimo(num1, num2) {
+//     if (num1 < num2) {
+//         return num1;
+//     } else {
+//         return num2;
+//     }
+// }
+
+// let minimo;
+
+// minimo = numeroMinimo(2, 5)
+// console.log(minimo);
+
+// minimo = numeroMinimo(7, 5);
+// console.log(minimo);
+
+// minimo = numeroMinimo(3, 3);
+// console.log("Iguales");
