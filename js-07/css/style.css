@@ -22,13 +22,9 @@ main {
     margin: 0.5em;
 }
 
-.main__title {
+.main_title {
     text-align: center;
     margin-bottom: 0.5em;
-}
-
-.section {
-    margin-bottom: 1em;
 }
 
 @media (min-width: 768px) {
@@ -39,7 +35,7 @@ main {
     }
 }
 
-.section__title {
+.section_title {
     margin-bottom: 0.5em;
 }
 
@@ -49,16 +45,16 @@ main {
     gap: 0.25em;
 }
 
-.form__label {
+.form_label {
     align-self: center;
     font-weight: bold;
 }
 
-.form__input {
+.form_input {
     flex: 1;
 }
 
-.form__button {
+.form_button {
     display: inline-block;
     padding: 0.25em 1em;
 }
@@ -66,9 +62,10 @@ main {
 .error {
     text-align: center;
     color: red;
+    height: 1em;
 }
 
-.tasks__item {
+.tasks_item {
     display: flex;
     justify-content: space-between;
 }
